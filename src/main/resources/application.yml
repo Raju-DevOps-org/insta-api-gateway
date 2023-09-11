@@ -8,7 +8,7 @@ server:
 eureka:
   client:
     service-url:
-      default-zone: http://insta-discovery:80/eureka/
+      defaultZone: http://insta-discovery:80/eureka/
     registerWithEureka: true
 
 zuul:
