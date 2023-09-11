@@ -10,6 +10,8 @@ eureka:
     service-url:
       defaultZone: http://insta-discovery:80/eureka/
     registerWithEureka: true
+  instance:
+    prefer-ip-address: true
 
 zuul:
   ignored-services: '*'
